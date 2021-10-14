@@ -11,9 +11,9 @@ namespace database_of_customers
             {
                 FirstName = "Stefan",
                 LastName = "Garcés",
-                socialSecurityNumber = "9112291456",
+                SocialSecurityNumber = "9112291456",
                 Email = "stefangarces@gmail.com",
-                swishNumber = "0762-282847",
+                SwishNumber = "0762-282847",
                 Address = new AddressModel
                 {
                     StreetAdress = "Östra Storgatan 9A",
