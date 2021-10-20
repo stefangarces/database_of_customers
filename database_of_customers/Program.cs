@@ -6,19 +6,21 @@ namespace database_of_customers
     {
         static void Main(string[] args)
         {
+
+            // Mockdata
             MongoCRUD db = new MongoCRUD("UserDatabase");
             PersonModel person = new PersonModel
             {
-                FirstName = "Stefan",
-                LastName = "Garcés",
-                SocialSecurityNumber = "9112291456",
-                Email = "stefangarces@gmail.com",
-                SwishNumber = "0762-282847",
+                FirstName = "John",
+                LastName = "Andersson",
+                SocialSecurityNumber = "9612291476",
+                Email = "john.andersson@gmail.com",
+                SwishNumber = "0762-282947",
                 Address = new AddressModel
                 {
                     StreetAdress = "Östra Storgatan 9A",
-                    City = "Eskilstuna",
-                    ZipCode = 44536
+                    City = "Västerås",
+                    ZipCode = 44936
                 }
             };
 
